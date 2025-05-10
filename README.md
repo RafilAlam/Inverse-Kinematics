@@ -1,6 +1,6 @@
 # 🦿 2D IK Leg Simulator  
 🧠 **Simulating Biomechanics with Code**  
-> A real-time inverse kinematics simulation built using **Python and Pygame**, where a 2-joint leg dynamically follows the mouse cursor. It visualizes how a thigh and calf might bend naturally toward a target position — a foundational concept in animation, robotics, and biomechanics.
+> A real-time inverse kinematics simulation built using **Python and Pygame**, where a 2-joint leg dynamically follows the mouse cursor. It visualizes how a thigh and calf might bend naturally toward a target position — a foundational concept in procedural animation, robotics, and biomechanics.
 
 ---
 
