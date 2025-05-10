@@ -9,7 +9,7 @@ _Coming soon: Video or GIF of leg following mouse_
 
 ---
 
-## 🧠 Features
+## 🛠️ Features
 - Real-time inverse kinematics with mouse tracking  
 - Simulated upper and lower leg joints (2-link system)  
 - Accurate knee position computation using vector math  
@@ -18,6 +18,6 @@ _Coming soon: Video or GIF of leg following mouse_
 
 ---
 
-## 🛠️ Tech Stack
+## 📦 Tech Stack
 - **Python**
 - **Pygame Library**
