@@ -5,7 +5,10 @@
 ---
 
 ## 🎥 Demo  
-_Coming soon: Video or GIF of leg following mouse_
+
+
+https://github.com/user-attachments/assets/87631ef0-b633-4cd3-8360-09381b2854d8
+
 
 ---
 
