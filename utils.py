@@ -25,7 +25,7 @@ def get_rect_corners(start, end, width):
 
     return [top_left, top_right, bottom_right, bottom_left]
 
-def getKneeJointCoords(root, endpoint, UPPER_LEG_LENGTH, LOWER_LEG_LENGTH, natural = True):
+def getKneeJointCoords(root, endpoint, UPPER_LEG_LENGTH, LOWER_LEG_LENGTH):
     HipToAnkleDistance = math.sqrt((endpoint[0]-root[0])**2 + (endpoint[1]-root[1])**2)
     HipRad = math.acos(max(-1, min(1, ((UPPER_LEG_LENGTH**2 + HipToAnkleDistance**2 - LOWER_LEG_LENGTH**2) / (2 * UPPER_LEG_LENGTH * HipToAnkleDistance)))))
     HipTheta = math.atan2(endpoint[1] - root[1], endpoint[0] - root[0])

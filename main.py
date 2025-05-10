@@ -10,7 +10,8 @@ root = pygame.Rect((100, 400, 30, 50))
 
 BASE_COLOUR = (255, 255, 153)
 BODY_COLOUR = (255, 255, 255)
-UPPER_LEG_LENGTH = 100
+DARKERBODY_COLOUR = (130, 130, 130)
+UPPER_LEG_LENGTH = 60
 LOWER_LEG_LENGTH = 50
 
 body = [root]
@@ -30,7 +31,7 @@ while True:
     pygame.draw.polygon(window, BODY_COLOUR, upperLegcorners)
 
     lowerLegcorners = get_rect_corners(Knee, mousepos, 10)
-    pygame.draw.polygon(window, BODY_COLOUR, lowerLegcorners)
+    pygame.draw.polygon(window, DARKERBODY_COLOUR, lowerLegcorners)
 
     for bodyparts in body:
         pygame.draw.rect(window, BODY_COLOUR, bodyparts)
