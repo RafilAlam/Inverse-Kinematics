@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/87631ef0-b633-4cd3-8360-09381b2854d8
 - Simulated upper and lower leg joints (2-link system)  
 - Accurate knee position computation using vector math  
 - Smooth joint articulation using geometric constraints  
-- Fully rendered in **Pygame**, using `draw.polygon()` for limbs
+- Fully rendered in **Pygame**
 
 ---
 
